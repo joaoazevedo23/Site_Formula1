@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {
+    height: 70px;
+    width: 92.6%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid aqua;
+    padding: 14px 30px 14px 70px;
+
+    .logo {
+        height: 60px;
+        object-fit: contain;
+
+    }
+
+    nav {
+        height: 60px;
+        display: flex;
+        padding: 10px;
+
+        ul {
+            padding: 5px;
+            display: flex;
+            gap: 10px;
+            color: white;
+            align-items: center;
+            flex-wrap: wrap;
+
+
+            li{
+                text-decoration: none;
+                display: flex;
+                transition: 0.5s;
+                cursor: pointer;
+                user-select: none;
+                font-size: large;
+
+
+                
+                &:hover{
+                    color: aqua;
+                }
+            }
+        }
+    }
+}

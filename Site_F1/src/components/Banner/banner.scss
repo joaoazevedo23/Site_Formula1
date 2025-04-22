@@ -1,0 +1,34 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 80vh;
+    background-color: aqua;
+
+  .banner {
+    background-image: url('./../../assets/CarroMercedes.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: white;
+    padding: 20px;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .coluna{
+    display:grid;
+    grid-template-rows: 2fr 2fr;
+    gap: 10px;
+
+    .noticias{
+        background-color: aqua;
+    }
+
+    .temporada{
+        background-color: black;
+        color: white;
+    }
+  }
+}
